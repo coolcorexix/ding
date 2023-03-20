@@ -7,7 +7,7 @@ COMMAND_NAME="ringme"
 INSTALL_DIR="/usr/local/bin"
 
 # Define the URL of the script that implements the new command
-SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ringme/master/pingme.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ringme/master/ringme.sh"
 AUDIO_FILE_URL="https://github.com/coolcorexix/ringme/blob/master/elevator-door-open.m4a?raw=true"
 AUDIO_FILE_NAME="elevator-door-open.m4a"
 
