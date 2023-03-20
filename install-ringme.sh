@@ -7,13 +7,18 @@ COMMAND_NAME="ringme"
 INSTALL_DIR="/usr/local/bin"
 
 # Define the URL of the script that implements the new command
-SCRIPT_URL="https://example.com/mynewcommand.sh"
+SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ringme/master/pingme.sh?token=GHSAT0AAAAAAB5CPKU6UFIDMI7YOFUW6UEGZAY4A5A"
+AUDIO_FILE_URL="https://github.com/coolcorexix/ringme/blob/master/elevator-door-open.m4a?raw=true"
+
 
 # Check if the command already exists in the installation directory
 if [ -f "$INSTALL_DIR/$COMMAND_NAME" ]; then
     echo "Error: $COMMAND_NAME already exists in $INSTALL_DIR. Aborting installation."
     exit 1
 fi
+
+# Download a file from URL and write it to the installation directory
+curl -sSL "$AUDIO_FILE_URL" > "$INSTALL_DIR/$COMMAND_NAME"
 
 # Download the command script from the URL and write it to the installation directory
 curl -sSL "$SCRIPT_URL" > "$INSTALL_DIR/$COMMAND_NAME"
