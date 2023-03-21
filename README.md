@@ -10,7 +10,7 @@ sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ringme/master/insta
 # Usage
 
 ```shell
-ringme npm install
+ringme [the command that make you wait]
 ```
 
 # Known issues
