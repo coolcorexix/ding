@@ -4,7 +4,7 @@ Play a sound when a command is done. This help you come back to you work when yo
 # Installation
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ringme/master/install-ringme.sh  | sudo bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ringme/85e9cf65a4c59dafc3fee8d5fd8d746762530392/install-ringme.sh  | bash
 ```
 
 # Usage
