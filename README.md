@@ -13,3 +13,6 @@ sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ringme/master/insta
 ringme npm install
 ```
 
+# Known issues
+- This command does not work with aliases
+- Only tested with MacOs so far
