@@ -1,5 +1,5 @@
 # What this command do
-Play a sound when a command is done. This help you come back to you work when you are doing something else while waiting.
+Play a sound when a command is done. This help you come back to work when you are doing something else while waiting.
 
 # Installation
 
