@@ -15,4 +15,4 @@ ringme npm install
 
 # Known issues
 - This command does not work with aliases
-- Only tested with MacOs so far
+- Only tested with MacOs and zsh so far
