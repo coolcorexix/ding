@@ -4,13 +4,13 @@ Play a sound when a command is done. This help you come back to work when you ar
 # Installation
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ringme/85e9cf65a4c59dafc3fee8d5fd8d746762530392/install-ringme.sh  | bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/85e9cf65a4c59dafc3fee8d5fd8d746762530392/install-ding.sh  | bash
 ```
 
 # Usage
 
 ```shell
-ringme [the command that make you wait]
+ding [the command that make you wait]
 ```
 
 # Known issues
@@ -20,5 +20,5 @@ ringme [the command that make you wait]
 # Uninstall
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ringme/85e9cf65a4c59dafc3fee8d5fd8d746762530392/uninstall-ringme.sh  |  bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/85e9cf65a4c59dafc3fee8d5fd8d746762530392/uninstall-ding.sh  |  bash
 ```

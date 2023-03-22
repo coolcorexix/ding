@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Define the name of the new command
-COMMAND_NAME="ringme"
+COMMAND_NAME="ding"
 
 # Define the path to the directory where the new command will be installed
 INSTALL_DIR="/usr/local/bin"
 
 # Define the URL of the script that implements the new command
-SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ringme/c27def3be46140b141fe4f3a643aec0713e2768b/ringme.sh"
-AUDIO_FILE_URL="https://github.com/coolcorexix/ringme/raw/c27def3be46140b141fe4f3a643aec0713e2768b/elevator-door-open.m4a?raw=true"
+SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/c27def3be46140b141fe4f3a643aec0713e2768b/ding.sh"
+AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/c27def3be46140b141fe4f3a643aec0713e2768b/elevator-door-open.m4a?raw=true"
 AUDIO_FILE_NAME="elevator-door-open.m4a"
 
 # Check if the command already exists in the installation directory
