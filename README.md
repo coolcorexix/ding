@@ -1,10 +1,9 @@
-# What this command do
-Play a sound when a command is done. This help you come back to work when you are doing something else while waiting.
+Help you come back to your work when the command you are waiting for is done. With an elegant ding sound 🤌🛎 .
 
 # Installation
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/85e9cf65a4c59dafc3fee8d5fd8d746762530392/install-ding.sh  | bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/300a67492592c5feb2ad54c15265dc8b6f57064b/install-ding.sh  | bash
 ```
 
 # Usage

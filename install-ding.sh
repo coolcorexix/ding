@@ -7,8 +7,8 @@ COMMAND_NAME="ding"
 INSTALL_DIR="/usr/local/bin"
 
 # Define the URL of the script that implements the new command
-SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/c27def3be46140b141fe4f3a643aec0713e2768b/ding.sh"
-AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/c27def3be46140b141fe4f3a643aec0713e2768b/elevator-door-open.m4a?raw=true"
+SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/300a67492592c5feb2ad54c15265dc8b6f57064b/ding.sh"
+AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/300a67492592c5feb2ad54c15265dc8b6f57064b/elevator-door-open.m4a?raw=true"
 AUDIO_FILE_NAME="elevator-door-open.m4a"
 
 # Check if the command already exists in the installation directory
