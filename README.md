@@ -1,4 +1,6 @@
-Help you come back to your work when the command you are waiting for is done. With an elegant ding sound 🤌🛎 .
+Help you come back to your work when the command you are waiting for is done. With an elegant ding sound 🤌🛎 
+
+
 
 # Installation
 
