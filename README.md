@@ -10,7 +10,7 @@ If you find this useful, please consider donating to support my work. Lots of lo
 # Installation
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/e834ffb68850768ce29ec822d1ebbf4b110350c7/install-ding.sh  | sudo bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/8196e8d8f84cbed2fb8e8279fc6c6cd604ddf20a/install-ding.sh  | sudo bash
 ```
 
 # Usage
@@ -26,5 +26,5 @@ ding [the command that make you wait]
 # Uninstall
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/85e9cf65a4c59dafc3fee8d5fd8d746762530392/uninstall-ding.sh  |  bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/8196e8d8f84cbed2fb8e8279fc6c6cd604ddf20a/uninstall-ding.sh  |  bash
 ```
