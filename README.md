@@ -10,7 +10,7 @@ If you find this useful, please consider donating to support my work. Lots of lo
 # Installation
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/300a67492592c5feb2ad54c15265dc8b6f57064b/install-ding.sh  | bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/e834ffb68850768ce29ec822d1ebbf4b110350c7/install-ding.sh  | sudo bash
 ```
 
 # Usage
