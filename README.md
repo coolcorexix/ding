@@ -26,5 +26,5 @@ ding [the command that make you wait]
 # Uninstall
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/8196e8d8f84cbed2fb8e8279fc6c6cd604ddf20a/uninstall-ding.sh  |  bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/8196e8d8f84cbed2fb8e8279fc6c6cd604ddf20a/uninstall-ding.sh  |  sudo bash
 ```
