@@ -1,5 +1,7 @@
 Help you come back to your work when the command you are waiting for is done. With an elegant ding sound 🤌🛎 - made by [Nemo](https://twitter.com/phamhuyphat).
 
+Works for both Mac and Linux.
+
 This helps you:
 - Proactively wait on the command while attending other stuff
 - Avoid being distracted for too long
