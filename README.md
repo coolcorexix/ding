@@ -1,10 +1,10 @@
 Help you come back to your work when the command you are waiting for is done. With an elegant ding sound 🤌🛎 - made by [Nemo](https://twitter.com/phamhuyphat).
 
-Works for both Mac and Linux.
+Works for both MacOs and Ubuntu.
 
 This helps you:
-- Proactively wait on the command while attending other stuff
-- Avoid being distracted for too long
+- Proactively wait on the command while attending other stuff (watch a cat video while waiting)
+- Avoid being distracted for too long (watch too much cat videos while waiting)
 
 If you find this useful, please consider donating to support my work. Lots of love 🙏
 
@@ -39,7 +39,6 @@ ding sleep 3000
 
 # Known issues
 - This command does not work with aliases
-- Only tested with MacOs and zsh so far
 
 # Uninstall
 
