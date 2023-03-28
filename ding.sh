@@ -1,3 +1,4 @@
+#!/bin/bash
 $@
 
 # if the command is run on mac use this script
