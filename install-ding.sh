@@ -7,9 +7,11 @@ COMMAND_NAME="ding"
 INSTALL_DIR="/usr/local/bin"
 
 # Define the URL of the script that implements the new command
-SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/c55648698e94955007e73983e6119d8cdc2d3f46/ding.sh"
-AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/c55648698e94955007e73983e6119d8cdc2d3f46/elevator-door-open.wav?raw=true"
+SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/30a668053ebd1973d351b2b0ea4ad760b612b358/ding.sh"
+AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/30a668053ebd1973d351b2b0ea4ad760b612b358/elevator-door-open.wav?raw=true"
 AUDIO_FILE_NAME="elevator-door-open.wav"
+BUZZ_AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/30a668053ebd1973d351b2b0ea4ad760b612b358/buzz-sound.wav?raw=true"
+BUZZ_AUDIO_FILE_NAME="buzz-sound.wav"
 
 # Check if the command already exists in the installation directory
 if [ -f "$INSTALL_DIR/$COMMAND_NAME" ]; then
@@ -28,6 +30,9 @@ fi
 
 # Download a file from URL and write it to the installation directory
 curl -sSL "$AUDIO_FILE_URL" > "$INSTALL_DIR/$AUDIO_FILE_NAME"
+
+# Download a file from URL and write it to the installation directory
+curl -sSL "$BUZZ_AUDIO_FILE_URL" > "$INSTALL_DIR/$BUZZ_AUDIO_FILE_NAME"
 
 
 # stop script if the download failed
