@@ -1,5 +1,7 @@
 Help you come back to your work when the command you are waiting for is done. With an elegant ding sound 🤌🛎 - made by [Nemo](https://twitter.com/phamhuyphat).
 
+Play a buzz sound if the command exit with non-zero code.
+
 Works for both MacOs and Ubuntu.
 
 This helps you:
