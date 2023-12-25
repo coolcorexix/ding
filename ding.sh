@@ -26,4 +26,4 @@ if [[ $exit_code -ne 0 ]]; then
     exit $exit_code
 fi
 
-play_sound elevator-door-open.wav
+play_sound bells-mindful.wav
