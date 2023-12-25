@@ -18,7 +18,7 @@ If you find this useful, please consider donating to support my work. Lots of lo
 # Installation
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/6d88c1dc9eafd9d7d2f974f2a427e95b4bf0b4b6/install-ding.sh  | sudo bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/62f655a8f0d197173632de93b6386c7016bfb40b/install-ding.sh  | sudo bash
 ```
 
 # Usage
@@ -45,5 +45,5 @@ ding sleep 3000
 # Uninstall
 
 ```shell
-sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/6d88c1dc9eafd9d7d2f974f2a427e95b4bf0b4b6/uninstall-ding.sh  |  sudo bash
+sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/62f655a8f0d197173632de93b6386c7016bfb40b/uninstall-ding.sh  |  sudo bash
 ```
