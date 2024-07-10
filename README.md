@@ -12,8 +12,9 @@ If you find this useful, please consider donating to support my work. Lots of lo
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/coolcorexil)
 
-
-
+UPDATE:
+- More pleasant sound when the command is done with error
+- Soundplay will not block the terminal anymore 
 
 # Installation
 
