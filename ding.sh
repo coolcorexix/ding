@@ -21,7 +21,7 @@ function play_sound {
 
 if [[ $exit_code -ne 0 ]]; then
     # play the sound
-    play_sound buzz-sound.wav
+    play_sound wood-sound.wav
     # stop the script right here
     exit $exit_code
 fi

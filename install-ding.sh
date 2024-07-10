@@ -10,8 +10,8 @@ INSTALL_DIR="/usr/local/bin"
 SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/62f655a8f0d197173632de93b6386c7016bfb40b/ding.sh"
 AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/62f655a8f0d197173632de93b6386c7016bfb40b/bells-mindful.wav?raw=true"
 AUDIO_FILE_NAME="bells-mindful.wav"
-BUZZ_AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/62f655a8f0d197173632de93b6386c7016bfb40b/buzz-sound.wav?raw=true"
-BUZZ_AUDIO_FILE_NAME="buzz-sound.wav"
+BUZZ_AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/62f655a8f0d197173632de93b6386c7016bfb40b/wood-sound.wav?raw=true"
+BUZZ_AUDIO_FILE_NAME="wood-sound.wav"
 
 # Check if the command already exists in the installation directory
 if [ -f "$INSTALL_DIR/$COMMAND_NAME" ]; then
