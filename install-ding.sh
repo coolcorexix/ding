@@ -7,10 +7,10 @@ COMMAND_NAME="ding"
 INSTALL_DIR="/usr/local/bin"
 
 # Define the URL of the script that implements the new command
-SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/4a31f759b55e2d3ecb2b8f6288f1008a4cc7a2c0/ding.sh"
-AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/4a31f759b55e2d3ecb2b8f6288f1008a4cc7a2c0/bells-mindful.wav?raw=true"
+SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/adfb1eb7bcb17ec79c6acdb9826df717bcbae66e/ding.sh"
+AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/adfb1eb7bcb17ec79c6acdb9826df717bcbae66e/bells-mindful.wav?raw=true"
 AUDIO_FILE_NAME="bells-mindful.wav"
-BUZZ_AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/4a31f759b55e2d3ecb2b8f6288f1008a4cc7a2c0/wood_sound.wav?raw=true"
+BUZZ_AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/adfb1eb7bcb17ec79c6acdb9826df717bcbae66e/wood_sound.wav?raw=true"
 BUZZ_AUDIO_FILE_NAME="wood_sound.wav"
 
 # Check if the command already exists in the installation directory
