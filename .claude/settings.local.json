@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/4ad2962f98fb206885a6b65417ac844b72be273a/install-ding.sh)",
+      "Bash(sudo bash:*)",
+      "Bash(ding-hook)"
+    ]
+  }
+}

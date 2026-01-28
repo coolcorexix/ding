@@ -8,6 +8,8 @@ INSTALL_DIR="/usr/local/bin"
 
 # Define the URL of the script that implements the new command
 SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/adfb1eb7bcb17ec79c6acdb9826df717bcbae66e/ding.sh"
+HOOK_SCRIPT_URL="https://raw.githubusercontent.com/coolcorexix/ding/master/ding-hook.sh"
+HOOK_SCRIPT_NAME="ding-hook"
 AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/adfb1eb7bcb17ec79c6acdb9826df717bcbae66e/bells-mindful.wav?raw=true"
 AUDIO_FILE_NAME="bells-mindful.wav"
 BUZZ_AUDIO_FILE_URL="https://github.com/coolcorexix/ding/raw/adfb1eb7bcb17ec79c6acdb9826df717bcbae66e/wood_sound.wav?raw=true"
@@ -41,8 +43,24 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+# Download the Claude Code hook script
+curl -sSL "$HOOK_SCRIPT_URL" > "$INSTALL_DIR/$HOOK_SCRIPT_NAME"
+
+if [ $? -ne 0 ]; then
+    echo "Warning: Failed to download $HOOK_SCRIPT_NAME. Claude Code hook support will not be available."
+else
+    chmod +x "$INSTALL_DIR/$HOOK_SCRIPT_NAME"
+    echo "Claude Code hook script installed as '$HOOK_SCRIPT_NAME'"
+fi
+
 # Set the correct permissions for the new command
 chmod +x "$INSTALL_DIR/$COMMAND_NAME"
 
 # Display a message indicating that the installation was successful
 echo "Installation of $COMMAND_NAME complete. You can now use '$COMMAND_NAME echo neat' to try out the command."
+echo ""
+echo "For Claude Code integration, add this to your ~/.claude/settings.json:"
+echo '  "hooks": {'
+echo '    "Stop": [{"hooks": [{"type": "command", "command": "ding-hook"}]}],'
+echo '    "Notification": [{"hooks": [{"type": "command", "command": "ding-hook"}]}]'
+echo '  }'

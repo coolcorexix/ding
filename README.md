@@ -40,6 +40,48 @@ Bonus: if you want to have small break from your work session, run
 ding sleep 3000
 ```
 
+# Claude Code Integration
+
+Ding supports [Claude Code hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) to play notification sounds when Claude finishes tasks.
+
+## Setup
+
+After installing ding, add this to your `~/.claude/settings.json`:
+
+```json
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "ding-hook"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "ding-hook"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+## Supported Events
+
+| Event | Sound | When it triggers |
+|-------|-------|------------------|
+| `Stop` | bells-mindful.wav | Claude finishes responding |
+| `Notification` | wood_sound.wav | Claude sends a notification (permission prompts, idle, etc.) |
+
 # Known issues
 - This command does not work with aliases
 
