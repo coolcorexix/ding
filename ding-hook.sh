@@ -26,11 +26,11 @@ play_sound() {
         return 1
     fi
 
-    # Play sound based on OS
+    # Play sound based on OS (use full paths for VSCode compatibility)
     if [[ "$(uname)" == "Darwin" ]]; then
-        afplay "$sound_path" &
+        /usr/bin/afplay "$sound_path" &
     elif [[ "$(uname)" == "Linux" ]]; then
-        aplay "$sound_path" &
+        /usr/bin/aplay "$sound_path" &
     fi
 }
 

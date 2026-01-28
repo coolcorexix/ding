@@ -56,7 +56,7 @@ After installing ding, add this to your `~/.claude/settings.json`:
         "hooks": [
           {
             "type": "command",
-            "command": "ding-hook"
+            "command": "/usr/local/bin/ding-hook"
           }
         ]
       }
@@ -66,7 +66,7 @@ After installing ding, add this to your `~/.claude/settings.json`:
         "hooks": [
           {
             "type": "command",
-            "command": "ding-hook"
+            "command": "/usr/local/bin/ding-hook"
           }
         ]
       }
@@ -74,6 +74,8 @@ After installing ding, add this to your `~/.claude/settings.json`:
   }
 }
 ```
+
+**Note:** The full path `/usr/local/bin/ding-hook` is required for VSCode compatibility, as VSCode's environment doesn't include `/usr/local/bin` in PATH by default.
 
 ## Supported Events
 
