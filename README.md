@@ -92,3 +92,7 @@ After installing ding, add this to your `~/.claude/settings.json`:
 ```shell
 sudo curl -sSL https://raw.githubusercontent.com/coolcorexix/ding/4ad2962f98fb206885a6b65417ac844b72be273a/uninstall-ding.sh  |  sudo bash
 ```
+
+---
+
+More tools by the same author: [nemothecollector.dev/products](https://nemothecollector.dev/products)
